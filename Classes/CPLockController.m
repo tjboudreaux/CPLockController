@@ -59,7 +59,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	//needs a delegate
+	assert(delegate != nil);
+	
+	//check if passcode is set for CPLockControllerTypeAuth
+	if(style == CPLockControllerTypeAuth){
+		assert(passcode != nil);
+	}
+	
 	[self setupSubviews];
+	
 }
 
 - (void)setupSubviews {

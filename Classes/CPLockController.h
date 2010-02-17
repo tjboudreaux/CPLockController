@@ -45,7 +45,7 @@ CPLockControllerTypeSet
 }
 
 @property (nonatomic, assign) id delegate;
-@property (nonatomic, retain) NSString *title;
+@property (nonatomic, copy) NSString *title;
 @property (nonatomic) CPLockControllerStyle style;
 @property (nonatomic, retain) NSString *passcode;
 @property (nonatomic, retain) NSString *prompt;
