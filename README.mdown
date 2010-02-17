@@ -66,6 +66,3 @@ Using CPLockController in your project
 		#define kCPLCDefaultSetError			@"Passcodes did not match. Try again."
 		#define kCPLCDefaultAuthError			@"Passcode incorrect. Try again."
 		
-		
-		
-		
