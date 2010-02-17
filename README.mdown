@@ -1,0 +1,71 @@
+CPLockController
+============
+CPLockController is UIViewController subclass that allows users to set a 4 digit passcode or enter one.
+
+[http://chrispurcell.net](http://chrispurcell.net)
+
+![](http://chrispurcell.net/github/cplockcontroller/enterpasscode.png)
+![](http://chrispurcell.net/github/cplockcontroller/setpasscode.png)
+
+Using CPLockController in your project
+===================================
+
+1. Add CPLockController.h/.m to your project.
+2. Import CPLockController.h to your class header
+		
+		#import "CPLockController.h"
+3. Make your class follow the CPLockControllerDelegate protocol:
+
+		@interface SampleAppViewController : UIViewController <CPLockControllerDelegate>
+4. Implement CPLockControllerDelegate methods:
+
+		#pragma mark CPLockControllerDelegate Methods
+		
+		- (void)lockControllerDidFinish:(NSString*)passcode {
+			//called when the controller is finished
+			//a passcode is passed only when setting a new code
+			if(passcode){
+				NSLog(@"new passcode: %@",passcode);
+			} else {
+				NSLog(@"passcode accepted!");
+			}
+		}
+		
+		- (void)lockControllerDidCancel {
+			//called when user hits cancel button
+			NSLog(@"user cancelled auth");
+		}
+5. For setting a new passcode:
+
+		CPLockController *lockController = [[CPLockController alloc]initWithStyle:CPLockControllerTypeSet];
+		lockController.delegate = self;
+		
+6. For authorizing a user with a passcode:
+
+		CPLockController *lockController = [[CPLockController alloc]initWithStyle:CPLockControllerTypeAuth];
+		lockController.passcode = @"1234";  //this is the passcode the user needs to enter
+		lockController.delegate = self;
+		
+	
+7. That's it!  Optional customization:
+		//Customize the navigation item title
+		lockController.title = @"Passcode is 1234";
+		
+		//Customize the passcode prompt
+		lockController.prompt = @"Please enter your passcode";
+
+8. If you need to localize the default prompts, they are located at the top of CPLockController.m
+
+		#define kCPLCDefaultSetPrompt			@"Enter your new passcode"
+		#define kCPLCDefaultAuthPrompt			@"Enter your passcode"
+
+		#define kCPLCDefaultSetTitle			@"Set Passcode"
+		#define kCPLCDefaultConfirmTitle		@"Confirm Passcode"
+		#define kCPLCDefaultAuthTitle			@"Enter Passcode"
+
+		#define kCPLCDefaultSetError			@"Passcodes did not match. Try again."
+		#define kCPLCDefaultAuthError			@"Passcode incorrect. Try again."
+		
+		
+		
+		

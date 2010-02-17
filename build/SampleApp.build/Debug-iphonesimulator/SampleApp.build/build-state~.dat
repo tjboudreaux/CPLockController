@@ -1,0 +1,295 @@
+TSampleApp
+v7
+r0
+t288078770.883300
+cCheck dependencies
+cProcessInfoPlistFile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/Info.plist SampleApp-Info.plist
+cCompileXIB /Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib
+cCompileXIB /Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib
+cProcessPCH /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch.gch SampleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/main.o /Users/chrispurcell/Coding/Personal/github/CPLockController/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppAppDelegate.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppViewController.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/CPLockController.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp normal i386
+cGenerateDSYMFile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app.dSYM /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp
+cTouch /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AF0C10000000000000000EE
+t1257292032
+s238
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026DB60
+t1253951571
+s2546528
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027D5E0
+t1253951826
+s2610656
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE20000000001670F70
+t1253961442
+s23531376
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h
+c000000004B7B4362000000000000048A
+t1266369378
+s1162
+i<UIKit/UIKit.h>
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m
+c000000004B7B81FB0000000000001F9C
+t1266385403
+s8092
+i"CPLockController.h"
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.h
+c000000004B797D4A00000000000001DC
+t1266253130
+s476
+i<UIKit/UIKit.h>
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m
+c000000004B797D4B0000000000000264
+t1266253131
+s612
+i"SampleAppAppDelegate.h"
+i"SampleAppViewController.h"
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h
+c000000004B7B3E44000000000000016C
+t1266368068
+s364
+i<UIKit/UIKit.h>
+i"CPLockController.h"
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m
+c000000004B7B479D0000000000000535
+t1266370461
+s1333
+i"SampleAppViewController.h"
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib
+c000000004B78EB0D0000000000002464
+t1266215693
+s9316
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib
+c000000004B7B3E630000000000004E5E
+t1266368099
+s20062
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleApp_Prefix.pch
+c000000004B78EB0D00000000000000BB
+t1266215693
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app
+t1266385970
+s238
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app.dSYM
+t1266385970
+s102
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/Info.plist
+t1266385969
+s601
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/MainWindow.nib
+t1266385969
+s1483
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/PkgInfo
+t1266385969
+s8
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp
+t1266385970
+s33976
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleAppViewController.nib
+t1266385970
+s2304
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/CPLockController.o
+t1266385970
+s60600
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleApp.LinkFileList
+c000000004B7B8431000000000000027B
+t1266385969
+s635
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppAppDelegate.o
+t1266385970
+s38192
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppViewController.o
+t1266385970
+s33620
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/main.o
+t1266385970
+s6008
+
+N/Users/chrispurcell/Coding/Personal/github/CPLockController/main.m
+c000000004B797D4B000000000000015B
+t1266253131
+s347
+i<UIKit/UIKit.h>
+
+N/var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch.gch
+t1266385970
+s13030864
+
+NSampleApp-Info.plist
+c000000004B78EB0D000000000000038D
+t1266215693
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288078769#288078769#0(0"0(0#1#0"4300907768#0"0#
+
+CCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/CPLockController.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288078770.718923
+e288078770.848812
+r1
+xCompileC
+xbuild/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/CPLockController.o
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m:9:
+o/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property
+lSLF07#2@94"Compile /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m288078770#288078770#0(301"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m:9:/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property1(22@88"Property 'title' 'copy' attribute does not match super class 'UIViewController' property288078770#112#189#2(7@108"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m288078770#18446744073709551615#0#0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m288078203#9#0#9#0#0"0(13@178"Property 'title' 'copy' attribute does not match super class 'UIViewController' property in /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288078770#18446744073709551615#0#0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(0#0#86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m4300907768#2190"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv LANG en_US.US-ASCII    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-generated-files.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-project-headers.hmap -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/include -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources/i386 -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources -include /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch -c /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.m -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/CPLockController.o0#
+
+CCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppAppDelegate.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288078770.649752
+e288078770.718821
+r1
+xCompileC
+xbuild/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppAppDelegate.o
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h:10,
+o                 from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m:10:
+o/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property
+lSLF07#2@98"Compile /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m288078770#288078770#0(426"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h:10,                 from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m:10:/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property1(22@88"Property 'title' 'copy' attribute does not match super class 'UIViewController' property288078770#237#189#3(7@112"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m288078770#18446744073709551615#0#0(6@90"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m287945931#10#0#10#0#0"0(7@115"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h288078770#18446744073709551615#0#0(6@93"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h288060868#10#0#10#0#0"0(13@178"Property 'title' 'copy' attribute does not match super class 'UIViewController' property in /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288078770#18446744073709551615#0#0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(0#0#90"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m4300907768#2198"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv LANG en_US.US-ASCII    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-generated-files.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-project-headers.hmap -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/include -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources/i386 -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources -include /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch -c /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppAppDelegate.m -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppAppDelegate.o0#
+
+CCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppViewController.o /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288078770.698865
+e288078770.794142
+r1
+xCompileC
+xbuild/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppViewController.o
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h:10,
+o                 from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m:9:
+o/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property
+lSLF07#2@101"Compile /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m288078770#288078770#0(428"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h:10,                 from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m:9:/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h:56: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property1(22@88"Property 'title' 'copy' attribute does not match super class 'UIViewController' property288078770#239#189#3(7@115"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m288078770#18446744073709551615#0#0(6@93"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m288063261#9#0#9#0#0"0(7@115"In file included from /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h288078770#18446744073709551615#0#0(6@93"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.h288060868#10#0#10#0#0"0(13@178"Property 'title' 'copy' attribute does not match super class 'UIViewController' property in /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288078770#18446744073709551615#0#0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(6@86"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/CPLockController.h288062178#56#0#56#0#0"0(0#0#93"/Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m4300907768#2204"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv LANG en_US.US-ASCII    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-generated-files.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-project-headers.hmap -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/include -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources/i386 -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources -include /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch -c /Users/chrispurcell/Coding/Personal/github/CPLockController/Classes/SampleAppViewController.m -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleAppViewController.o0#
+
+CCompileC build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/main.o /Users/chrispurcell/Coding/Personal/github/CPLockController/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288078770.648699
+e288078770.698769
+r1
+xCompileC
+xbuild/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/main.o
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/chrispurcell/Coding/Personal/github/CPLockController/main.m288078770#288078770#0(0"0(0#0#66"/Users/chrispurcell/Coding/Personal/github/CPLockController/main.m4300907768#2158"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv LANG en_US.US-ASCII    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-generated-files.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-project-headers.hmap -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/include -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources/i386 -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources -include /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch -c /Users/chrispurcell/Coding/Personal/github/CPLockController/main.m -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib
+s288078769.750588
+e288078770.008321
+r1
+xCompileXIB
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib288078769#288078770#0(0"0(0#0#74"/Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib4300907768#567"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/MainWindow.nib /Users/chrispurcell/Coding/Personal/github/CPLockController/MainWindow.xib0#
+
+CCompileXIB /Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib
+s288078769.751184
+e288078770.066160
+r1
+xCompileXIB
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib
+lSLF07#2@38"CompileXIB SampleAppViewController.xib288078769#288078770#0(0"0(0#0#87"/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib4300907768#593"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleAppViewController.nib /Users/chrispurcell/Coding/Personal/github/CPLockController/SampleAppViewController.xib0#
+
+CGenerateDSYMFile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app.dSYM /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp
+s288078770.867319
+e288078770.880949
+r1
+xGenerateDSYMFile
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app.dSYM
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/SampleApp.app.dSYM build/Debug-iphonesimulator/SampleApp.app/SampleApp288078770#288078770#0(0"0(0#0#111"/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp4300907768#472"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/usr/bin/dsymutil" /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app.dSYM0#
+
+CLd /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp normal i386
+s288078770.848899
+e288078770.867215
+r1
+xLd
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp
+xnormal
+xi386
+lSLF07#2@116"Link /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp288078770#288078770#0(0"0(0#0#0"4300907768#1007"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -arch i386 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -L/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -filelist /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/Objects-normal/i386/SampleApp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/SampleApp0#
+
+CProcessInfoPlistFile /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/Info.plist SampleApp-Info.plist
+s288078769.739685
+e288078769.750510
+r1
+xProcessInfoPlistFile
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/Info.plist
+xSampleApp-Info.plist
+lSLF07#2@28"Process SampleApp-Info.plist288078769#288078769#0(0"0(0#0#80"/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleApp-Info.plist4300907768#560"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SampleApp-Info.plist -genpkginfo /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app/Info.plist0#
+
+CProcessPCH /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch.gch SampleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288078770.066272
+e288078770.648574
+r1
+xProcessPCH
+x/var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch.gch
+xSampleApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile SampleApp_Prefix.pch288078770#288078770#0(0"0(0#0#80"/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleApp_Prefix.pch4300907768#2027"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv LANG en_US.US-ASCII    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk" -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-generated-files.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-own-target-headers.hmap -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-all-target-headers.hmap -iquote /Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/SampleApp-project-headers.hmap -F/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/include -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources/i386 -I/Users/chrispurcell/Coding/Personal/github/CPLockController/build/SampleApp.build/Debug-iphonesimulator/SampleApp.build/DerivedSources -c /Users/chrispurcell/Coding/Personal/github/CPLockController/SampleApp_Prefix.pch -o /var/folders/t-/t-LrJNAvH-mhxQo64wAsY++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/SampleApp_Prefix-duwcmybafxooooapbrgltrrjfgbr/SampleApp_Prefix.pch.gch0#
+
+CTouch /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app
+s288078770.881029
+e288078770.883277
+r1
+xTouch
+x/Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app
+lSLF07#2@107"Touch /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app288078770#288078770#0(0"0(0#0#0"4300907768#334"    cd /Users/chrispurcell/Coding/Personal/github/CPLockController    setenv PATH "/Developer- Beta/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer- Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/chrispurcell/Coding/Personal/github/CPLockController/build/Debug-iphonesimulator/SampleApp.app0#
+

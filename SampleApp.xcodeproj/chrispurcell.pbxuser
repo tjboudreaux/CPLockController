@@ -82,17 +82,18 @@
 					PBXFindDataSource_LocationID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 288078190;
-			PBXWorkspaceStateSaveDate = 288078190;
+			PBXPerProjectTemplateStateSaveDate = 288078765;
+			PBXWorkspaceStateSaveDate = 288078765;
 		};
 		perUserProjectItems = {
-			3B1C5F60112BB9AA0052179B /* PBXTextBookmark */ = 3B1C5F60112BB9AA0052179B /* PBXTextBookmark */;
-			3BC39DAC112948F2003DB305 /* PBXTextBookmark */ = 3BC39DAC112948F2003DB305 /* PBXTextBookmark */;
-			3BEEB9F3112B75CE004305B9 /* PBXTextBookmark */ = 3BEEB9F3112B75CE004305B9 /* PBXTextBookmark */;
-			3BEEBA65112B79E9004305B9 /* PBXTextBookmark */ = 3BEEBA65112B79E9004305B9 /* PBXTextBookmark */;
-			3BEEBA78112B7B3B004305B9 /* PBXTextBookmark */ = 3BEEBA78112B7B3B004305B9 /* PBXTextBookmark */;
-			3BEEBA94112B7F7B004305B9 /* PBXTextBookmark */ = 3BEEBA94112B7F7B004305B9 /* PBXTextBookmark */;
-			3BEEBA99112B7F96004305B9 /* PBXTextBookmark */ = 3BEEBA99112B7F96004305B9 /* PBXTextBookmark */;
+			3B1C5F60112BB9AA0052179B = 3B1C5F60112BB9AA0052179B /* PBXTextBookmark */;
+			3B1C5F69112BBBB30052179B /* PBXTextBookmark */ = 3B1C5F69112BBBB30052179B /* PBXTextBookmark */;
+			3BC39DAC112948F2003DB305 = 3BC39DAC112948F2003DB305 /* PBXTextBookmark */;
+			3BEEB9F3112B75CE004305B9 = 3BEEB9F3112B75CE004305B9 /* PBXTextBookmark */;
+			3BEEBA65112B79E9004305B9 = 3BEEBA65112B79E9004305B9 /* PBXTextBookmark */;
+			3BEEBA78112B7B3B004305B9 = 3BEEBA78112B7B3B004305B9 /* PBXTextBookmark */;
+			3BEEBA94112B7F7B004305B9 = 3BEEBA94112B7F7B004305B9 /* PBXTextBookmark */;
+			3BEEBA99112B7F96004305B9 = 3BEEBA99112B7F96004305B9 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3BC39AE71129229C003DB305 /* Source Control */;
 		userBuildSettings = {
@@ -106,6 +107,16 @@
 		rLoc = 6942;
 		rType = 0;
 		vrLen = 1185;
+		vrLoc = 6498;
+	};
+	3B1C5F69112BBBB30052179B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3BC39AEA112922BF003DB305 /* CPLockController.m */;
+		name = "CPLockController.m: 235";
+		rLen = 0;
+		rLoc = 6942;
+		rType = 0;
+		vrLen = 1143;
 		vrLoc = 6498;
 	};
 	3BC39AE11129228D003DB305 /* SampleApp */ = {
@@ -159,9 +170,9 @@
 	};
 	3BC39AEA112922BF003DB305 /* CPLockController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1202, 3887}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 3939}}";
 			sepNavSelRange = "{6942, 0}";
-			sepNavVisRange = "{6498, 1185}";
+			sepNavVisRange = "{6498, 1143}";
 		};
 	};
 	3BC39DAC112948F2003DB305 /* PBXTextBookmark */ = {
