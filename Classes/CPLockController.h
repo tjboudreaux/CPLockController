@@ -29,6 +29,7 @@ CPLockControllerTypeSet
 	NSString *prompt;
 	NSString *title;
 	id <CPLockControllerDelegate> delegate;
+	BOOL hideCode;
 	
 	//Private vars
 	BOOL retry;	
@@ -49,7 +50,7 @@ CPLockControllerTypeSet
 @property (nonatomic) CPLockControllerStyle style;
 @property (nonatomic, retain) NSString *passcode;
 @property (nonatomic, retain) NSString *prompt;
-
+@property (nonatomic) BOOL hideCode;
 
 - (void)setTitle:(NSString *)title;
 

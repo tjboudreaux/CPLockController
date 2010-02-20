@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3B3C7A93112BD522002603F8</string>
+										<string>3B3394AD112F6215009AA76E</string>
 										<key>history</key>
 										<array>
 											<string>3BC39DAC112948F2003DB305</string>
@@ -338,7 +338,7 @@
 											<string>3B3C7A8A112BD4F5002603F8</string>
 											<string>3B3C7A91112BD522002603F8</string>
 											<string>3B3C7A92112BD522002603F8</string>
-											<string>3B3C7A7E112BD4D6002603F8</string>
+											<string>3B3C7A95112BD58A002603F8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -396,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3B3C7A6F112BCDE2002603F8</string>
+				<string>3B3394AE112F6215009AA76E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3B3C7A70112BCDE2002603F8</string>
+				<string>3B3394AF112F6215009AA76E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -536,10 +536,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3BC39B0511292757003DB305</string>
 		<string>/Users/chrispurcell/Coding/Personal/github/CPLockController/SampleApp.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 126 1440 752 0 0 1440 878 </string>
@@ -563,7 +561,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CPLockController.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -580,8 +578,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -621,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3BC39B0511292757003DB305</string>
-				<string>3B3C7A71112BCDE2002603F8</string>
+				<string>3B3394B0112F6215009AA76E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -915,7 +911,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

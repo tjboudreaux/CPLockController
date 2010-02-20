@@ -44,13 +44,14 @@
 
 
 @implementation CPLockController
-@synthesize delegate,style,passcode,prompt,hiddenField,navigationItem,promptLabel,subPromptLabel,tempString,retry,title;
+@synthesize delegate,style,passcode,prompt,hiddenField,navigationItem,promptLabel,subPromptLabel,tempString,retry,title,hideCode;
 
 - (id)initWithStyle:(CPLockControllerStyle)theStyle {
 	if(self = [super init]){
 		self.style = theStyle;
 		self.retry = NO;
 		self.tempString = [NSMutableString string];
+		self.hideCode = YES;
 	}
 	
 	return self;
@@ -152,7 +153,7 @@
 	field1.backgroundColor = [UIColor whiteColor];
 	field1.borderStyle = UITextBorderStyleBezel;
 	//field1.enabled = NO;
-	field1.secureTextEntry = YES;
+	field1.secureTextEntry = self.hideCode;
 	field1.font = [UIFont systemFontOfSize:fontsize];
 	field1.textAlignment = UITextAlignmentCenter;
 	field1.tag = 0;
@@ -163,7 +164,7 @@
 	field2.backgroundColor = [UIColor whiteColor];
 	field2.borderStyle = UITextBorderStyleBezel;
 	field2.enabled = NO;
-	field2.secureTextEntry = YES;	
+	field2.secureTextEntry = self.hideCode;	
 	field2.font = [UIFont systemFontOfSize:fontsize];	
 	field2.textAlignment = UITextAlignmentCenter;
 	field2.tag = 2;
@@ -173,7 +174,7 @@
 	field3.backgroundColor = [UIColor whiteColor];
 	field3.borderStyle = UITextBorderStyleBezel;
 	field3.enabled = NO;
-	field3.secureTextEntry = YES;
+	field3.secureTextEntry = self.hideCode;
 	field3.font = [UIFont systemFontOfSize:fontsize];	
 	field3.textAlignment = UITextAlignmentCenter;	
 	field3.tag = 3;
@@ -183,7 +184,7 @@
 	field4.backgroundColor = [UIColor whiteColor];
 	field4.borderStyle = UITextBorderStyleBezel;
 	field4.enabled = NO;
-	field4.secureTextEntry = YES;
+	field4.secureTextEntry = self.hideCode;
 	field4.font = [UIFont systemFontOfSize:fontsize];	
 	field4.textAlignment = UITextAlignmentCenter;	
 	field4.tag = 4;

@@ -53,6 +53,9 @@ Using CPLockController in your project
 		
 		//Customize the passcode prompt
 		lockController.prompt = @"Please enter your passcode";
+		
+		//Show passcode during entry- default is YES
+		lockController.hideCode = NO;
 
 8. If you need to localize the default prompts, they are located at the top of CPLockController.m
 
