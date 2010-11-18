@@ -44,7 +44,7 @@
 
 
 @implementation CPLockController
-@synthesize delegate,style,passcode,prompt,hiddenField,navigationItem,promptLabel,subPromptLabel,tempString,retry,title,hideCode;
+@synthesize delegate,style,passcode,prompt,hiddenField,navigationItem,promptLabel,subPromptLabel,tempString,retry,title,hideCode,name;
 
 - (id)initWithStyle:(CPLockControllerStyle)theStyle {
 	if(self = [super init]){
@@ -242,7 +242,7 @@
 			} else {
 				//check if confirm matches first
 				if([passcode isEqualToString:self.tempString]){
-					[delegate lockControllerDidFinish:passcode];
+					[delegate lockController:self DidFinish:passcode];
 					[self dissmissView];
 
 				//confirm passcode doesn't match
@@ -254,7 +254,7 @@
 			
 		} else if(self.style == CPLockControllerTypeAuth){
 				if([passcode isEqualToString:self.tempString]){
-					[delegate lockControllerDidFinish:nil];
+					[delegate lockController:self DidFinish:nil];
 					[self dissmissView];				
 					
 				} else {

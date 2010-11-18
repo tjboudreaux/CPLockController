@@ -13,10 +13,11 @@ CPLockControllerTypeAuth,
 CPLockControllerTypeSet
 } CPLockControllerStyle;
 
+@class CPLockController;
 @protocol CPLockControllerDelegate
 
 @required
-- (void)lockControllerDidFinish:(NSString*)passcode;
+- (void)lockController:(CPLockController *)controller DidFinish:(NSString*)passcode;
 - (void)lockControllerDidCancel;
 
 @end
@@ -28,6 +29,7 @@ CPLockControllerTypeSet
 	NSString *passcode;
 	NSString *prompt;
 	NSString *title;
+	NSString *name;
 	id <CPLockControllerDelegate> delegate;
 	BOOL hideCode;
 	
@@ -51,6 +53,7 @@ CPLockControllerTypeSet
 @property (nonatomic, retain) NSString *passcode;
 @property (nonatomic, retain) NSString *prompt;
 @property (nonatomic) BOOL hideCode;
+@property (nonatomic, retain) NSString *name;
 
 - (void)setTitle:(NSString *)title;
 
